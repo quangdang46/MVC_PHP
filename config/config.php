@@ -1,6 +1,6 @@
 <?php
 
-$config['base_url'] = "http://localhost/php";
+$config['base_url'] = "http://localhost/php/";
 
 
 $config['default_module'] = 'home';

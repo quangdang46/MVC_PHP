@@ -16,8 +16,8 @@
 			<tr>
 				<td>STT</td>
 				<td>Tên</td>
-				<td>Email</td>
 				<td>Tuổi</td>
+				<td>Địa chỉ</td>
 				<td>Thu nhập</td>
 			</tr>
 		</thead>
@@ -31,7 +31,7 @@
 					<tr>
 						<td><?php echo $t; ?></td>
 						<td><?php echo $user['fullname'] ?></td>
-						<td><?php echo $user['email'] ?></td>
+						<td><?php echo $user['address'] ?></td>
 						<td><?php echo $user['age'] ?></td>
 						<td><?php echo currency_format($user['earn'], '$'); ?></td>
 					</tr>

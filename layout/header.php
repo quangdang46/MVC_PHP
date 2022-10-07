@@ -1,6 +1,7 @@
 <html>
 
 <head>
+	<base href="<?php echo base_url(); ?>">
 	<title>Upload file Ajax</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="public/js/customs.js" type="text/javascript"></script>
